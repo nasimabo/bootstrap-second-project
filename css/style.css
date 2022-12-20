@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+/* bannner section start */
+.banner {
+  background: url(../image/2caae017a61202f87bc36fab57e85a63.png),
+    rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 631px;
+}
+.sub-title {
+  color: yellow;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.title {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+.btn {
+  color: white;
+  border-color: white;
+}
+.two-button:hover {
+  background-color: white;
+  color: black;
+}
+.title::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  display: block;
+  background-color: yellow;
+  margin-top: 20px;
+}
+/* banner section end */
+
+/* discription text start */
+.elvo-subtitle {
+  font-size: 1.25rem;
+  font-weight: 660;
+}
+.elvo-title {
+  font-weight: 620;
+  font-size: 2rem;
+}
+.elvo-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: yellow;
+  margin: 20px 0;
+}
+.small-text {
+  color: darkgray;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.elvo-text {
+  font-size: 14px;
+  text-align: inherit;
+  font-family: "Open Sans", sans-serif;
+}
+/* discription text end */
+/* feature start */
+.feature-imgeone {
+  background-image: url(../image/bf37f8217e4b71feb26707d632c6845d.jpg);
+  height: 300px;
+}
+.feature-imgetwo {
+  background-image: url(../image/457883519366bc77e9ffb4294b44f8df.jpg);
+  height: 300px;
+}
+.feature-imgethree {
+  background-image: url(../image/35970472e6f88da51190947c84ba6f2a.jpg);
+  height: 300px;
+}
+.building{
+    font-size: 25px;
+    font-weight: 525;
+}
+.building::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    margin-top: 10px;
+}
+.feature-text {
+	margin-top: 170px;
+}
+.building-text{
+    font-size: 14px;
+    text-align: inherit;
+    font-family: "Open Sans", sans-serif;
+}
+/* feature end */
+/* speacial service start */
+.style::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px 650px;
+}
+/* speacial service end */
+/* services start */
+.planing-img{
+  width: 50px;
+  height: 50px;
+  border: 1px solid gold;
+  padding: 7px;
+  border-radius: 5px;
+}
+.design{
+  font-size: 15px;
+  font-weight: 720;
+}
+.design-text{
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hr-style{
+  width: 80px;
+  height: 5px;
+  background-color: yellow;
+}
+
+/* services end */
+/* protfulio start */
+
+.speacial-servicess{
+  height: 220px;
+  padding-top: 40px;
+  background-color: black;
+}
+/* protfulio end */
+/* constraction start */
+.constraction-text{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.team::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: gold;
+  margin-top: 20px;
+}
+/* constraction end */
+/* team point start */
+.team-point{
+  background: url(../image/ten.jpeg),rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+span{
+  gap: 5px;
+}
+.team-text::after{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: gold;
+  margin: 17px auto;
+}
+/* team point end*/
+/* working planing start */
+.rounded-circle.bg-warning.p-3.finish {
+	width: 80px;
+	height: 80px;
+}
+.rounded-circle.bg-warning.p-3 {
+	width: 80px;
+	height: 80px;
+
+}
+/* working planing end */
+/* card section start */
+.card-section{
+  background-color: rgba(0, 0, 0, 0.767);
+}
+.mike-section{
+  width: 250px;
+  border: 1px solid white;
+  position: relative;
+}
+.angles{
+  margin-top: -30px;
+  z-index: 4;
+}
+.mike-text{
+  font-size: 14px;
+}
+/* card section end */
+/* criativity section start */
+.criativity{
+  background-color: rgba(0, 0, 0, 0.91);
+}
+.card-img-top {
+	width: 330px;
+  height: 250px;
+}
+/* criativity section end */
+/* card section start */
+.news{
+  background-color: white;
+}
+.card-text{
+  font-size: 14px;
+}
+.muted{
+  font-size: 12px;
+}
+/* card section end */
+/* elvo constatution start */
+.elvo{
+  background-color: yellow;
+}
+.elvo-text{
+  font-size: 13px;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+/* elvo constatution end */
+/* footer section start */
+.nicepage{
+  font-size: 10px;
+}
+/* footer section end */
+@media screen and (max-width: 320px) {
+  .sub-title {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-white {
+    font-size: 12px;
+  }
+  .img-fluid {
+    display: none;
+  }
+  .banner-discription {
+    margin: 150px 0;
+  }
+  .small-text {
+    font-size: 1.25rem;
+  }
+  .building{
+    font-size: 20px;
+  }
+  .protfulio{
+    flex-direction: column;
+  }
+  .team-point{
+    margin-top: 35px;
+  }
+  .angles{
+    margin-top: -15px;
+    justify-content: center;
+  }
+  .card-img-top {
+    width: 300px;
+    height: 250px;
+  }
+}
