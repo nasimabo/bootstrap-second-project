@@ -302,7 +302,7 @@ span{
   background-color: rgba(0, 0, 0, 0.91);
 }
 .card-img-top {
-	width: 330px;
+	width: 309px;
   height: 250px;
 }
 .link-text {
@@ -319,9 +319,6 @@ span{
   font-family: 'Roboto', sans-serif;
 }
 
-/* .muted{
-  font-size: 12px;
-} */
 .blog-text{
   color: #F4CB08;
   font-size: 30px;
@@ -385,7 +382,7 @@ span{
     justify-content: center;
   }
   .card-img-top {
-    width: 300px;
+    width: 295px;
     height: 250px;
   }
   .design{
