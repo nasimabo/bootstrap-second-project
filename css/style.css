@@ -2,12 +2,21 @@
   margin: 0;
   padding: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h4{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
 /* bannner section start */
 .banner {
@@ -20,18 +29,25 @@ h6 {
   height: 631px;
 }
 .sub-title {
-  color: yellow;
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 24px;
+  color: #F4CB08;
+  font-family: 'Roboto', sans-serif;
 }
 .title {
   color: white;
-  font-size: 2.25rem;
-  font-weight: 400;
+  font-size:48PX;
+ font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+.sample-text{
+ font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
 }
 .btn {
   color: white;
   border-color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
 .two-button:hover {
   background-color: white;
@@ -49,12 +65,13 @@ h6 {
 
 /* discription text start */
 .elvo-subtitle {
-  font-size: 1.25rem;
-  font-weight: 660;
+  font-size: 24px;
+  color: #F4CB08;
+  font-family: 'Roboto', sans-serif;
 }
 .elvo-title {
-  font-weight: 620;
-  font-size: 2rem;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
 }
 .elvo-title::after {
   content: "";
@@ -65,14 +82,22 @@ h6 {
   margin: 20px 0;
 }
 .small-text {
-  color: darkgray;
-  font-size: 1.2rem;
-  font-style: italic;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #B3B3B3;
 }
-.elvo-text {
-  font-size: 14px;
+.elvo-texts{
+  font-size: 16px;
   text-align: inherit;
   font-family: "Open Sans", sans-serif;
+
+}
+.red-butten{
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+  background-color: #F4CB08;
+
 }
 /* discription text end */
 /* feature start */
@@ -89,8 +114,8 @@ h6 {
   height: 300px;
 }
 .building{
-    font-size: 25px;
-    font-weight: 525;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 .building::after{
     content: "";
@@ -104,7 +129,7 @@ h6 {
 	margin-top: 170px;
 }
 .building-text{
-    font-size: 14px;
+    font-size: 16px;
     text-align: inherit;
     font-family: "Open Sans", sans-serif;
 }
@@ -118,21 +143,30 @@ h6 {
     background-color: yellow;
     margin: 20px 650px;
 }
+.best-text{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #F4CB08;
+}
+.service-text{
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
 /* speacial service end */
 /* services start */
 .planing-img{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border: 1px solid gold;
-  padding: 7px;
+  padding: 12px;
   border-radius: 5px;
 }
 .design{
-  font-size: 15px;
-  font-weight: 720;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 .design-text{
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -150,10 +184,20 @@ h6 {
   padding-top: 40px;
   background-color: black;
 }
+.prot-text{
+  color: #F4CB08;
+}
+.test-text{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #F4CB08;
+}
 /* protfulio end */
 /* constraction start */
-.constraction-text{
-  font-size: 14px;
+
+.more-button{
+  font-size: 16px;
+  background-color: #F4CB08;;
   font-family: "Open Sans", sans-serif;
 }
 .team::after{
@@ -163,6 +207,9 @@ h6 {
   height: 3px;
   background-color: gold;
   margin-top: 20px;
+}
+.text-war{
+  color: #F4CB08;
 }
 /* constraction end */
 /* team point start */
@@ -185,16 +232,46 @@ span{
   background-color: gold;
   margin: 17px auto;
 }
+.text-count{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #F4CB08;
+}
+.team-text{
+  color: black
+}
 /* team point end*/
 /* working planing start */
-.rounded-circle.bg-warning.p-3.finish {
-	width: 80px;
-	height: 80px;
+.rounded-circle{
+  width: 100px;
+  height: 100px;
+  padding: 21px;
 }
-.rounded-circle.bg-warning.p-3 {
-	width: 80px;
-	height: 80px;
+.rounded-circle.bg-warning.finish {
+	width: 100px;
+	height: 100px;
+  padding: 21px;
+}
+.rounded-circle.bg-warning {
+	width: 100px;
+	height: 100px;
+  padding: 21px;
 
+}
+.rounded-circle.bg-warning img{
+  padding: 21px;
+}
+.rounded-circle{
+  width: 100px;
+  height: 100px;
+  padding: 21px;
+}
+.text-step{
+  color: #F4CB08;
+}
+.planing-text{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 /* working planing end */
 /* card section start */
@@ -211,7 +288,13 @@ span{
   z-index: 4;
 }
 .mike-text{
-  font-size: 14px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.constra-text{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #F4CB08;
 }
 /* card section end */
 /* criativity section start */
@@ -222,33 +305,51 @@ span{
 	width: 330px;
   height: 250px;
 }
+.link-text {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
 /* criativity section end */
 /* card section start */
 .news{
   background-color: white;
 }
-.card-text{
-  font-size: 14px;
+.card-title{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
-.muted{
+
+/* .muted{
   font-size: 12px;
+} */
+.blog-text{
+  color: #F4CB08;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 /* card section end */
 /* elvo constatution start */
 .elvo{
-  background-color: yellow;
+  background-color: #F4CB08;
 }
 .elvo-text{
-  font-size: 13px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 .btn:hover{
   background-color: white;
   color: black;
 }
+.elvo-cons-text{
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+}
 /* elvo constatution end */
 /* footer section start */
 .nicepage{
-  font-size: 10px;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+
 }
 /* footer section end */
 @media screen and (max-width: 320px) {
@@ -286,6 +387,21 @@ span{
   .card-img-top {
     width: 300px;
     height: 250px;
+  }
+  .design{
+    font-size: 16px;
+  }
+  .recent-text{
+    font-size: 25px;
+  }
+  .work-text{
+    font-size: 30px;
+  }
+  .elvo-cons-text{
+    font-size: 22px;
+  }
+  .elvo-text{
+    font-size: 14px;
   }
 }
 @media screen and (max-width:576px) {
