@@ -2,21 +2,21 @@
   margin: 0;
   padding: 0;
 }
-h4{
+h4 {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-h3{
+h3 {
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-h2{
+h2 {
   font-size: 36px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-p{
+p {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* bannner section start */
 .banner {
@@ -30,24 +30,24 @@ p{
 }
 .sub-title {
   font-size: 24px;
-  color: #F4CB08;
-  font-family: 'Roboto', sans-serif;
+  color: #f4cb08;
+  font-family: "Roboto", sans-serif;
 }
 .title {
   color: white;
-  font-size:48PX;
- font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }
-.sample-text{
- font-family: 'Open Sans', sans-serif;
- font-size: 16px;
+.sample-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 .btn {
   color: white;
   border-color: white;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .two-button:hover {
   background-color: white;
@@ -66,12 +66,12 @@ p{
 /* discription text start */
 .elvo-subtitle {
   font-size: 24px;
-  color: #F4CB08;
-  font-family: 'Roboto', sans-serif;
+  color: #f4cb08;
+  font-family: "Roboto", sans-serif;
 }
 .elvo-title {
   font-size: 36px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .elvo-title::after {
   content: "";
@@ -83,21 +83,19 @@ p{
 }
 .small-text {
   font-size: 24px;
-  font-family: 'Open Sans', sans-serif;
-  color: #B3B3B3;
+  font-family: "Open Sans", sans-serif;
+  color: #b3b3b3;
 }
-.elvo-texts{
+.elvo-texts {
   font-size: 16px;
   text-align: inherit;
   font-family: "Open Sans", sans-serif;
-
 }
-.red-butten{
+.red-butten {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   margin-top: 20px;
-  background-color: #F4CB08;
-
+  background-color: #f4cb08;
 }
 /* discription text end */
 /* feature start */
@@ -113,64 +111,64 @@ p{
   background-image: url(../image/35970472e6f88da51190947c84ba6f2a.jpg);
   height: 300px;
 }
-.building{
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+.building {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
 }
-.building::after{
-    content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    background-color: yellow;
-    margin-top: 10px;
+.building::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: yellow;
+  margin-top: 10px;
 }
 .feature-text {
-	margin-top: 170px;
+  margin-top: 170px;
 }
-.building-text{
-    font-size: 16px;
-    text-align: inherit;
-    font-family: "Open Sans", sans-serif;
+.building-text {
+  font-size: 16px;
+  text-align: inherit;
+  font-family: "Open Sans", sans-serif;
 }
 /* feature end */
 /* speacial service start */
-.style::after{
-    content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    background-color: yellow;
-    margin: 20px 650px;
+.style::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: yellow;
+  margin: 20px 650px;
 }
-.best-text{
+.best-text {
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  color: #F4CB08;
+  font-family: "Roboto", sans-serif;
+  color: #f4cb08;
 }
-.service-text{
+.service-text {
   font-size: 36px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* speacial service end */
 /* services start */
-.planing-img{
+.planing-img {
   width: 70px;
   height: 70px;
   border: 1px solid gold;
   padding: 12px;
   border-radius: 5px;
 }
-.design{
+.design {
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.design-text{
+.design-text {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
 
-.hr-style{
+.hr-style {
   width: 80px;
   height: 5px;
   background-color: yellow;
@@ -179,28 +177,28 @@ p{
 /* services end */
 /* protfulio start */
 
-.speacial-servicess{
+.speacial-servicess {
   height: 220px;
   padding-top: 40px;
   background-color: black;
 }
-.prot-text{
-  color: #F4CB08;
+.prot-text {
+  color: #f4cb08;
 }
-.test-text{
+.test-text {
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  color: #F4CB08;
+  font-family: "Roboto", sans-serif;
+  color: #f4cb08;
 }
 /* protfulio end */
 /* constraction start */
 
-.more-button{
+.more-button {
   font-size: 16px;
-  background-color: #F4CB08;;
+  background-color: #f4cb08;
   font-family: "Open Sans", sans-serif;
 }
-.team::after{
+.team::after {
   content: "";
   display: block;
   width: 80px;
@@ -208,23 +206,23 @@ p{
   background-color: gold;
   margin-top: 20px;
 }
-.text-war{
-  color: #F4CB08;
+.text-war {
+  color: #f4cb08;
 }
 /* constraction end */
 /* team point start */
-.team-point{
-  background: url(../image/ten.jpeg),rgba(0, 0, 0, 0.7);
+.team-point {
+  background: url(../image/ten.jpeg), rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px;
 }
-span{
+span {
   gap: 5px;
 }
-.team-text::after{
+.team-text::after {
   content: "";
   display: block;
   width: 50px;
@@ -232,77 +230,76 @@ span{
   background-color: gold;
   margin: 17px auto;
 }
-.text-count{
+.text-count {
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  color: #F4CB08;
+  font-family: "Roboto", sans-serif;
+  color: #f4cb08;
 }
-.team-text{
-  color: black
+.team-text {
+  color: black;
 }
 /* team point end*/
 /* working planing start */
-.rounded-circle{
+.rounded-circle {
   width: 100px;
   height: 100px;
   padding: 21px;
 }
 .rounded-circle.bg-warning.finish {
-	width: 100px;
-	height: 100px;
-  padding: 21px;
-}
-.rounded-circle.bg-warning {
-	width: 100px;
-	height: 100px;
-  padding: 21px;
-
-}
-.rounded-circle.bg-warning img{
-  padding: 21px;
-}
-.rounded-circle{
   width: 100px;
   height: 100px;
   padding: 21px;
 }
-.text-step{
-  color: #F4CB08;
+.rounded-circle.bg-warning {
+  width: 100px;
+  height: 100px;
+  padding: 21px;
 }
-.planing-text{
+.rounded-circle.bg-warning img {
+  padding: 21px;
+}
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  padding: 21px;
+}
+.text-step {
+  color: #f4cb08;
+}
+.planing-text {
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* working planing end */
 /* card section start */
-.card-section{
+.card-section {
   background-color: rgba(0, 0, 0, 0.767);
 }
-.mike-section{
+.mike-section {
   width: 250px;
   border: 1px solid white;
   position: relative;
 }
-.angles{
+.angles {
   margin-top: -30px;
   z-index: 4;
 }
-.mike-text{
+.mike-text {
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.constra-text{
+.constra-text {
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  color: #F4CB08;
+  font-family: "Roboto", sans-serif;
+  color: #f4cb08;
 }
 /* card section end */
 /* criativity section start */
-.criativity{
+.criativity {
   background-color: rgba(0, 0, 0, 0.91);
 }
 .card-img-top {
-	width: 309px;
+  width: 309px;
   height: 250px;
 }
 .link-text {
@@ -311,42 +308,41 @@ span{
 }
 /* criativity section end */
 /* card section start */
-.news{
+.news {
   background-color: white;
 }
-.card-title{
+.card-title {
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.blog-text{
-  color: #F4CB08;
+.blog-text {
+  color: #f4cb08;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* card section end */
 /* elvo constatution start */
-.elvo{
-  background-color: #F4CB08;
+.elvo {
+  background-color: #f4cb08;
 }
-.elvo-text{
+.elvo-text {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
-.btn:hover{
+.btn:hover {
   background-color: white;
   color: black;
 }
-.elvo-cons-text{
+.elvo-cons-text {
   font-size: 48px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* elvo constatution end */
 /* footer section start */
-.nicepage{
+.nicepage {
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
-
 }
 /* footer section end */
 @media screen and (max-width: 320px) {
@@ -368,16 +364,16 @@ span{
   .small-text {
     font-size: 1.25rem;
   }
-  .building{
+  .building {
     font-size: 20px;
   }
-  .protfulio{
+  .protfulio {
     flex-direction: column;
   }
-  .team-point{
+  .team-point {
     margin-top: 35px;
   }
-  .angles{
+  .angles {
     margin-top: -15px;
     justify-content: center;
   }
@@ -385,24 +381,27 @@ span{
     width: 295px;
     height: 250px;
   }
-  .design{
+  .design {
     font-size: 16px;
   }
-  .recent-text{
+  .recent-text {
     font-size: 25px;
   }
-  .work-text{
-    font-size: 30px;
+  .work-text {
+    font-size: 25px;
   }
-  .elvo-cons-text{
-    font-size: 22px;
-  }
-  .elvo-text{
-    font-size: 14px;
+
+  .elvo-text {
+    font-size: 12px;
   }
 }
-@media screen and (max-width:576px) {
-   .img-fluid {
+@media screen and (max-width: 576px) {
+  .img-fluid {
     display: none;
-  } 
+  }
+}
+@media screen and(max-width:320px) {
+  .elvo-cons-text {
+    font-size: 14px !important;
+  }
 }
