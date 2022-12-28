@@ -11,7 +11,7 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 h2 {
-  font-size: 36px;
+  /* font-size: 36px; */
   font-family: "Roboto", sans-serif;
 }
 p {
@@ -390,7 +390,9 @@ span {
   .work-text {
     font-size: 25px;
   }
-
+  .elvo-cons-text {
+    font-size: 18px !important;
+  }
   .elvo-text {
     font-size: 12px;
   }
@@ -398,10 +400,5 @@ span {
 @media screen and (max-width: 576px) {
   .img-fluid {
     display: none;
-  }
-}
-@media screen and(max-width:320px) {
-  .elvo-cons-text {
-    font-size: 14px !important;
   }
 }
