@@ -26,7 +26,7 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 631px;
+  height: auto;
 }
 .sub-title {
   font-size: 24px;
@@ -61,6 +61,7 @@ p {
   background-color: yellow;
   margin-top: 20px;
 }
+
 /* banner section end */
 
 /* discription text start */
